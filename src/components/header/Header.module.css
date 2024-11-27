@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.837);
+    justify-content: space-between;
+    padding: 10px 100px;
+    font-size: 13px;
+    
+}
+.top a {
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    display: flex;
+    gap: 20px;
+}
+.usd{
+     display: flex;
+gap: 20px;
+}
+.phone i {
+    color: red;
+}
+.phone{
+    display: flex;
+    gap: 10px;
+}
+.bottom {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+.input {
+   display: flex;
+/* padding: 20px; */
+/* background-color: white; */
+height: auto ;
+align-items: center;
+}
+.input input{
+    padding: 10px;
+    width: 300px;
+    height: 45px;
+    border: 1px solid black;
+}
+
+.categories{
+    background-color: white;
+    width: 150px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+ border: 1px solid black;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ /* padding: 10px 0; */
+ height: 45px;
+ 
+}
+.btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 120px;
+background-color: red;
+color:white;
+font-weight: bolder;
+font-size: 15px;
+height: 45px;
+border: 1px solid black;
+}
+.icon {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    color: white;
+    /* font-weight: bolder; */
+    font-size: 15px;
+    position: relative;
+    padding: 10px 0;
+}
+.icon span{
+    position: absolute;
+    top: -7%;
+    right: 22px;
+    background-color: red;
+    padding: 3px;
+    border-radius:50%;
+     color:white;
+     font-weight: bolder;
+     font-size: 10px;
+
+}
+
+.iconbox{
+    display: flex;
+    gap: 15px;
+    
+    
+}
+.line{
+    height: 4px;
+    background-color: red;
+}
